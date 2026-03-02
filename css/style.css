@@ -238,9 +238,13 @@ color:#e74c3c;
     position: relative;
     display: block;
     overflow: hidden;
+    aspect-ratio: 224 / 208;
 }
 
 .items .item img{
+    width: 100%;
+    height: 100%;
+    display: block;
     object-fit: cover;
 }
 .items li{
